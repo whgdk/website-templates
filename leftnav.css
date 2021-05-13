@@ -1,0 +1,38 @@
+* {
+  	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.title-text {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.header {
+	position: fixed;
+	height: 100%;
+	width: 215px;
+
+	padding: 30px 10px;
+	background-color: beige;
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.content {
+	margin: 0 10%;
+	padding-left: 215px;
+}
+
+.content p {
+	white-space: pre-line;
+}
